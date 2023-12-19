@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Expense Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="amount">
+            <h2>INCOME EXPENSE TRACKER</h2>
+            <div class="balamt">
+            <h4>Your Balance</h4>
+            <h1 id="balance">Rs : 0.00</h1>
+        </div>
+          
+            <div class="total">
+                <div class="income">
+                   <h3>INCOME</h3>
+                   <p id="inamt" class="in_amt">Rs : 0.00</p>
+                </div>
+                <div class="expense">
+                    <h3>EXPENSE</h3>
+                    <p id="expamt" class="exp_amt">Rs : 0.00</p>
+                </div>
+            </div>
+            <br>
+
+            <form class="form" action="#" method="">
+                <div class="details">
+                <label for="des">Enter Description</label>
+                
+                <input type="text" id="des" placeholder="Enter Description" >
+                
+                <label for="amt">Enter Amount</label>
+                
+                <input type="number" id="amt" placeholder="Enter Amount" >
+               
+                <button >ADD TRANSACTION</button>
+            </div>
+                
+            </form>
+        </div>
+        <div class="transaction">
+            <h2>Transaction Details</h2>
+            <ul class="trans" id="trans">
+               <!--
+                <li class="inc">Salary :
+                    <span>30000</span>
+                    <button class="del">x</button>
+                    <h5>Date :<span class="date">00/00/0000</span></h5>
+                    
+                </li>
+                <li class="exp">Petrol :
+                    <span>300</span>
+                    <button class="del">x</button>
+                    <h5>Date :<span class="date">00/00/0000</span></h5>
+                    
+                </li>
+               
+                -->
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
